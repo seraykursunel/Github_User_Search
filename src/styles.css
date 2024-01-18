@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div.card-item {
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px solid #ddd;
+  margin: 10px auto;
+  width: 500px;
+}
+
+.card-item > h2 {
+  color: black;
+  font-size: 1em;
+}
+
+div.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  height: 150px;
+  weight: 150px;
+  padding-top: 20px;
+}
+
+a {
+  display: block;
+  color: grey;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  border-color: #b8a5a5;
+  border-width: 1px;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+input {
+  height: 20px;
+}
+
+h1 {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
